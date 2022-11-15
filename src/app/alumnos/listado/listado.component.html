@@ -1,0 +1,9 @@
+<h1>Listado de alumnos de {{clase}}</h1>
+<ul>
+    <!-- ngFor realiza un bucle de los elementos li -->
+    <li *ngFor="let a of alumnos">{{a}}</li>
+<!-- Otras directivas:
+    ngModel: Enlaza datos de manera bidireccional
+    ngClass: permite añadir/eliminar varias clases
+    ngStyle: permite asignar estilos inline -->
+</ul>
